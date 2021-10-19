@@ -3,8 +3,9 @@
    height: 500px; 
    display: flex;
    flex-flow: wrap;
+  
 }
-
+/* 
 .cell-box{
 width: 10%;
 height: 10%;
@@ -15,7 +16,7 @@ justify-content: center;
 align-items: center;
 transition: 1s;
 
-}
+} */
 
 /* .cell-box:active{
     
@@ -25,5 +26,34 @@ transition: 1s;
     background-color: blueviolet;
 }
 
+
+.cel-box-10{
+    width: 10%;
+    height: 10%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+   
+}
+.cel-box-9{
+    width: calc(100% / 9);
+    height: ;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.cel-box-7{
+    width: calc(100% / 7);
+    height: ;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
 
 
