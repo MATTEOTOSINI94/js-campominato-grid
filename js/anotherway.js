@@ -19,9 +19,9 @@ btnSubmit.addEventListener("click", function() {
         cella.classList.add("cel-box-"+ Math.round(numeroColonne))
         gameContainer.append(cella)
 
+        cella.innerHTML += x + 1
+        cella.addEventListener("click", cellonclick) 
        
-        
-     
         
     }
     
@@ -48,9 +48,13 @@ function numerocelle(livelliDifficolta) {
 }
 
 
+
+
+
 // in base al alla variabile numerototale di celle io andrò a creare un tot di quadrati
-function innestoindom() {
-    
-    
-    
+function cellonclick() {
+    this.classList.toggle("active")
 }
+    
+    
+    
