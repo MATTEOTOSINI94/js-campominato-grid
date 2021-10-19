@@ -1,0 +1,29 @@
+.box{
+   width: 500px;
+   height: 500px; 
+   display: flex;
+   flex-flow: wrap;
+}
+
+.cell-box{
+width: 10%;
+height: 10%;
+border: 1px solid black;
+
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 1s;
+
+}
+
+/* .cell-box:active{
+    
+} */
+
+.active{
+    background-color: blueviolet;
+}
+
+
+
